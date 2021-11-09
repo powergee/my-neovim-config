@@ -8,6 +8,7 @@ Plug 'preservim/nerdtree'
 Plug 'mhinz/vim-startify'
 Plug 'preservim/tagbar'
 Plug 'nanotech/jellybeans.vim', { 'tag': 'v1.7' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " Initialize plugin system
 call plug#end()
 
