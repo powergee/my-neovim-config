@@ -21,6 +21,15 @@ set autochdir
 set encoding=utf-8
 set fileencodings=utf-8,euckr
 
+let g:coc_global_extensions = [
+            \ 'coc-json',
+            \ 'coc-tsserver',
+            \ 'coc-html',
+            \ 'coc-css',
+            \ 'coc-pyright',
+            \ 'coc-clangd'
+            \ ]
+
 let g:airline_theme='luna'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
